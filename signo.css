@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(190, 193, 195, 0.323);
+
+}
+
+.informacao {
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+body {
+    height: 90vh;
+    background-image: url(https://images3.alphacoders.com/194/194225.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.pergunta {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+
+}
+
+input {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+button {
+    border-radius: 10px;
+    height: 45px;
+    width: 200px;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 64, 220);
+    cursor: pointer;
+}
+
+.result {
+
+
+    /* width: 80%; */
+
+    padding: 10% 10% 0% 10%;
+    font-size: 24px;
+    text-align: center;
+    color: aliceblue;
+
+}
